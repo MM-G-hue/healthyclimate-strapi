@@ -1,5 +1,5 @@
 {
-  "name": "healthyclimate-strapi",
+  "name": "strapi-cmd-test",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -32,6 +32,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "547f3e64-3396-4075-b3c1-00695dccdddc"
+    "uuid": "d0b59aef-c2ce-4a01-b9d4-0980ae229b3d"
   }
 }
