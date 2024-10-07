@@ -14,10 +14,10 @@
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^4.0.4",
     "@ckeditor/strapi-plugin-ckeditor": "^1.0.2",
-    "@strapi/plugin-cloud": "5.0.0",
+    "@strapi/plugin-cloud": "0.0.0-experimental.0e316dc69ac15cab63af4c7f91191d12fc2bbc27",
     "@strapi/plugin-graphql": "^5.0.0",
-    "@strapi/plugin-users-permissions": "5.0.0",
-    "@strapi/strapi": "5.0.0",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.0e316dc69ac15cab63af4c7f91191d12fc2bbc27",
+    "@strapi/strapi": "0.0.0-experimental.0e316dc69ac15cab63af4c7f91191d12fc2bbc27",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "mysql2": "3.9.4",
