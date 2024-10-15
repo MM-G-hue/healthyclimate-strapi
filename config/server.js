@@ -1,10 +1,10 @@
 module.exports = ({ env }) => ({
-  host: env('STRAPI_HOST', '0.0.0.0'),
-  port: env.int('STRAPI_PORT', 1337),
+  host: process.env.STRAPI_HOST || '0.0.0.0',
+  port: process.env.STRAPI_PORT || 1337,
   app: {
-    keys: env.array('STRAPI_APP_KEYS'),
+    keys: process.env.STRAPI_APP_KEYS.split(','),
   },
   webhooks: {
-    populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
+    populateRelations: process.env.WEBHOOKS_POPULATE_RELATIONS || false,
   },
 });
