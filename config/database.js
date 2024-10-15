@@ -1,5 +1,6 @@
 require('dotenv').config({ path: '../.env' });  
 const path = require('path');
+console.log("SSL", Boolean(process.env.STRAPI_DATABASE_SSL))
 
 module.exports = ({ env }) => {
   const client = process.env.STRAPI_DATABASE_CLIENT || 'sqlite';
@@ -12,7 +13,7 @@ module.exports = ({ env }) => {
         database: process.env.STRAPI_DATABASE_NAME || 'strapi',
         user: process.env.STRAPI_DATABASE_USERNAME || 'strapi',
         password: process.env.STRAPI_DATABASE_PASSWORD || 'strapi',
-        ssl: process.env.STRAPI_DATABASE_SSL || false && {
+        ssl: ((process.env.STRAPI_DATABASE_SSL == 'true') || false) && {
           key: process.env.DATABASE_SSL_KEY || undefined,
           cert: process.env.DATABASE_SSL_CERT || undefined,
           ca: process.env.DATABASE_SSL_CA || undefined,

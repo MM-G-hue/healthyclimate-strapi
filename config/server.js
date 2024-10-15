@@ -1,5 +1,4 @@
 require('dotenv').config({ path: '../.env' });  
-console.log(process.env);
 
 module.exports = ({ env }) => ({
   host: process.env.STRAPI_HOST || '0.0.0.0',
