@@ -1,5 +1,5 @@
 {
-  "name": "strapi-cmd-test",
+  "name": "healthyclimate-strapi",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -12,12 +12,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^4.0.4",
-    "@ckeditor/strapi-plugin-ckeditor": "^1.0.2",
-    "@strapi/plugin-cloud": "0.0.0-experimental.0e316dc69ac15cab63af4c7f91191d12fc2bbc27",
-    "@strapi/plugin-graphql": "^5.0.0",
-    "@strapi/plugin-users-permissions": "0.0.0-experimental.0e316dc69ac15cab63af4c7f91191d12fc2bbc27",
-    "@strapi/strapi": "0.0.0-experimental.0e316dc69ac15cab63af4c7f91191d12fc2bbc27",
+    "@strapi/plugin-cloud": "5.0.6",
+    "@strapi/plugin-users-permissions": "5.0.6",
+    "@strapi/strapi": "5.0.6",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "mysql2": "3.9.4",
@@ -32,6 +29,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "d0b59aef-c2ce-4a01-b9d4-0980ae229b3d"
+    "uuid": "d5d11feb-697b-4e9c-81f4-f99c3adc62b2"
   }
 }
