@@ -1,3 +1,5 @@
+require('dotenv').config({ path: '../.env' });  
+
 module.exports = ({ env }) => ({
   auth: {
     secret: process.env.STRAPI_ADMIN_JWT_SECRET,
